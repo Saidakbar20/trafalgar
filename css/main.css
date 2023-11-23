@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* header  */
+.container {
+  width: 1393px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header-inner {
+  padding-bottom: 80px;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .header-logo-link {
+}
+.logo {
+}
+.header-nav {
+} */
+.header-list {
+  display: flex;
+}
+.header-item {
+  margin-left: 40px;
+}
+.header-item:nth-child(1) {
+  margin-left: 0px;
+}
+.header-item-link {
+  color: var(--1f1534-hyfen, #1F1534);
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-item-link:hover {
+  color: var(--1f1534-hyfen, #1F1534);
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* hero  */
+.hero-inner {
+  padding-bottom: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-box {
+  width: 445px;
+}
+.hero-paragraph {
+  color: #000;
+font-family: Mulish;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+margin-bottom: 25px;
+}
+.hero-text {
+  color: #7D7987;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; /* 152.381% */
+margin-bottom: 45px;
+}
+.hero-btn {
+  color: #FFF;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 333.333% */
+border-radius: 55px;
+background: #458FF6;
+padding: 3px 40px;
+border: none;
+}
+/* .hero-img {
+} */
+/* service  */
+.service-inner {
+  padding-bottom: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-paragraph {
+  color: #000;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 155.556% */
+margin-bottom: 25px;
+}
+.service-hr {
+  border-radius: 5px;
+background: #000;
+margin-bottom: 33px;
+height: 3px;
+width: 56px;
+}
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.service-item {
+  width: 350px;
+  padding: 67px 37px 47px 37px;
+  border-radius: 20px;
+background: #FFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+.service-img {
+  margin-bottom: 19px;
+
+}
+.service-item-parahraph {
+  color: #000;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+}
+.service-item-text {
+  color: #7D7987;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+}
+.service-btn {
+  padding: 1px 51px;
+  color: #458FF6;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 333.333% */
+background-color: transparent;
+border-radius: 55px;
+border: 1.4px solid #458FF6;
+margin-top: 71px;
+}
+
+/* health  */
+.health-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .health-img {
+} */
+.health-box {
+  width: 450px;
+
+}
+.health-paragraph {
+  color: #000;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 155.556% */
+margin-bottom: 26px;
+}
+.health-hr {
+  border-radius: 10px;
+background: #000;
+width: 56px;
+height: 2px;
+}
+.health-text {
+  color: #7D7987;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+margin-top: 31px;
+margin-bottom: 37px;
+}
+.health-btn {
+  margin-top: 0;
+}
+
+/* download  */
+.download-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 229px;
+}
+.download-box {
+  width: 450px;
+
+}
+.download-paragraph {
+  color: #000;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 155.556% */
+margin-bottom: 26px;
+}
+.download-hr {
+  border-radius: 10px;
+background: #000;
+width: 56px;
+height: 2px;
+}
+.download-text {
+  color: #7D7987;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+margin-top: 31px;
+margin-bottom: 37px;
+}
+.download-btn {
+  margin-top: 0;
+}
